@@ -1,6 +1,6 @@
 # This file could be use after setup to install the configuration token
 # API Token
-token = 'ics-xxxx'
+token = 'ics-50031829367ccdbbb91137fb117ae6be735e99ef-111f4f9c459adf5fa41ea8dfe4669ff3d9fa8a45'
 # ICS CyberVision FQDN or IP Address
 # for a center you should use
 # center_ip = '169.254.0.42'
@@ -8,8 +8,8 @@ token = 'ics-xxxx'
 # for a remote via SSH port forwarding to the center you can use 
 #center_ip = 'localhost'
 #center_port = 9999
-center_ip = '169.254.0.42'
-center_port = 4443
+center_ip = 'localhost'
+center_port = 2190
 # if a proxy is needed, put it in the form 'protocol://ip:port'
 #proxy = 'socks5h://127.0.0.1:4010'
 proxy = ''
