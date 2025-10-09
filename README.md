@@ -83,4 +83,18 @@ This project is licensed under the Cisco Sample Code License 1.1 - see the [LICE
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/cisco-cyber-vision-api-scripts)
 
+8.  Sensor
+# List sensors and write to sensor_list.csv
+python3 sensor.py --list
 
+# List sensors to a custom file
+python3 sensor.py --list --file my_sensors.csv
+
+# Push default filter "optimal"
+python3 sensor.py --capush
+
+# Push custom filter
+python3 sensor.py --capush --filtre "industrial_only"
+
+# Push using values from custom CSV file
+python3 sensor.py --capushcsv --file my_sensors.csv
